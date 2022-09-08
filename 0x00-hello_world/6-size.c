@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	printf("size of char is 1 byte(s)\n");
-	printf("size of int is 4 byte(s)\n");
-	printf("size of long int is 4 byte(s)\n");
-	printf("size of long long int is 8 byte(s)\n");
-	printf("size of float is 4 byte(s)\n");
+	printf("size of char: 1 byte(s)\n");
+	printf("size of int: 4 byte(s)\n");
+	printf("size of long int: 4 byte(s)\n");
+	printf("size of long long int: 8 byte(s)\n");
+	printf("size of float: 4 byte(s)\n");
 
 	return (0);
 }
