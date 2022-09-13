@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isalpha - Checks for alphabetic order
  *
@@ -9,8 +8,6 @@
 
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'a' && c <= 'z'))
-		return (1);
-	else
-		return (0);
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+
 }
