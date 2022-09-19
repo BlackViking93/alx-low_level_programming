@@ -3,18 +3,17 @@
 
 /*
  * reset_to_98 - updates value of a variable
- * Return: 0
+ * Return: Always 0 (success)
  */
 
 void reset_to_98(int *n)
 {
-	int a;
 
-	int *p;
+	int p;
 
-	p = &a;
+	n  = &p;
 
-	*p = 98;
+	*n = 98;
 
 	return;
 }
